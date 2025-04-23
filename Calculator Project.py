@@ -19,7 +19,7 @@ def multiply(n1, n2):
     return n1 * n2
 
 
-f = 1
+should_repeat= True
 operations = {
     "+": add,
     "-": subtract,
@@ -27,7 +27,7 @@ operations = {
     "/": divide,
 }
 
-while f == 1:
+while should_repeat= True:
 
     n1 = float(input("What's the first number?: "))
     print(f"+\n-\n*\n/")
